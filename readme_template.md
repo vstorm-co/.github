@@ -32,6 +32,7 @@ A concise, high-level description of what this project achieves. Explain the "Va
 ### 1. Prerequisites
 
 Ensure you have the following installed:
+
 * [ ] [Tool 1] (e.g., Docker Desktop)
 * [ ] [Tool 2] (e.g., Poetry, Npm, or Go)
 * [ ] [Tool 3] (e.g., AWS CLI configured with `dev` profile)
@@ -110,7 +111,7 @@ Never commit sensitive credentials to the repository.
 
 This is a joint repository. To maintain quality and speed, please follow these rules:
 
-* **Branching**: Please refer to branching strategy [here](https://github.com/vstorm-co/.github/blob/main/branching_template.md)
+* **Branching**: Please refer to branching strategy [found here](https://github.com/vstorm-co/.github/blob/main/branching_template.md)
 
 * **Pull Requests**: Fill out the [PR Template](https://github.com/vstorm-co/.github/blob/main/pull_request_template.md) completely.
 
