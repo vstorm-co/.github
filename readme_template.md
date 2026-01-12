@@ -111,7 +111,7 @@ Never commit sensitive credentials to the repository.
 
 This is a joint repository. To maintain quality and speed, please follow these rules:
 
-* **Branching**: Please refer to branching strategy [found here](https://github.com/vstorm-co/.github/blob/main/branching_template.md)
+* **Branching**: Please refer to branching strategy [found here](https://github.com/vstorm-co/.github/blob/main/branching_strategy.md)
 
 * **Pull Requests**: Fill out the [PR Template](https://github.com/vstorm-co/.github/blob/main/pull_request_template.md) completely.
 
