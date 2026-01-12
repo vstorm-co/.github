@@ -2,7 +2,7 @@
 
 > **Status:** [🔴 Alpha / 🟡 Beta / 🟢 Production]  
 > **Service Owner:** [Team Name / Squad]  
-> **Slack Channel:** [#project-channel]
+> **Mattermost Channel:** [#project-channel]
 
 ---
 
@@ -34,7 +34,7 @@ A concise, high-level description of what this project achieves. Explain the "Va
 Ensure you have the following installed:
 
 * [ ] [Tool 1] (e.g., Docker Desktop)
-* [ ] [Tool 2] (e.g., Poetry, Npm, or Go)
+* [ ] [Tool 2] (e.g., uv, npm, or Go)
 * [ ] [Tool 3] (e.g., AWS CLI configured with `dev` profile)
 
 ### 2. Installation & Setup
@@ -58,9 +58,59 @@ Never commit sensitive credentials to the repository.
 
 * **Local Secrets**: Managed via `.env` (ignored by git).
 
-* **Team Secrets**: Access can be requested via [e.g., 1Password Vault / AWS Secrets Manager].
+* **Team Secrets**: Access can be requested via [e.g., Passbolt].
 
 * **Key Variables**: List critical variables here (e.g., `DATABASE_URL`, `API_KEY`).
+
+### Pre-commit hooks
+
+Use `pre-commit` to run linters, formatters and other checks locally and in CI. Add a `.pre-commit-config.yaml` at the repo root to define hooks (e.g., `black`, `isort`, `flake8`, `markdownlint`).
+
+Installation:
+
+```bash
+# Install (Python)
+pip install pre-commit
+# or macOS Homebrew
+brew install pre-commit
+```
+
+Set up hooks for your local repo:
+
+```bash
+# Install git hook scripts
+pre-commit install
+# Run all hooks against all files (useful after adding hooks)
+pre-commit run --all-files
+```
+
+CI Integration:
+
+Run `pre-commit run --all-files` as a step in your CI pipeline to enforce checks on every push/PR.
+
+Notes:
+* Keep `.pre-commit-config.yaml` under version control so the whole team uses the same hooks.
+* Use `pre-commit autoupdate` to update hook versions periodically.
+
+Example of `.pre-commit-config.yaml`:
+
+```yaml
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+        - id: trailing-whitespace
+        - id: end-of-file-fixer
+        - id: check-yaml
+        - id: check-added-large-files
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.14
+    hooks:
+        - id: ruff
+        args: [ --fix ]
+        - id: ruff-format
+```
 
 ### 4. Running locally
 
@@ -72,7 +122,7 @@ Never commit sensitive credentials to the repository.
 
 ---
 
-## 📁 Project Structure
+## 📁 Exemplary Project Structure
 
 ```plaintext
 ├── .github/              # GitHub Actions, PR Templates, Copilot Instructions
@@ -99,7 +149,7 @@ Never commit sensitive credentials to the repository.
 
 ### Monitoring and logs
 
-* **Logs**: [Link to Datadog / CloudWatch]
+* **Logs**: [Link to Logfire]
 
 * **Error Tracking**: [Link to Sentry / Honeybadger]
 
