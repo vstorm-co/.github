@@ -137,6 +137,6 @@ This is a joint repository. To maintain quality and speed, please follow these r
 
 * **Common Issue 2**: "Description of issue." -> Fix: Check config Y.
 
---
+---
 
 ### Last Updated: [date]
