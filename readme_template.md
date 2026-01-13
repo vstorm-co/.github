@@ -64,63 +64,17 @@ Never commit sensitive credentials to the repository.
 
 ### Pre-commit hooks
 
-Use `pre-commit` to run linters, formatters and other checks locally and in CI. Add a `.pre-commit-config.yaml` at the repo root to define hooks (e.g., `black`, `isort`, `flake8`, `markdownlint`).
+Use `pre-commit` to run linters, formatters and other checks locally and in CI. Add a `.pre-commit-config.yaml` at the repo root to define hooks (e.g., `ruff`).
 
-Installation:
-
-```bash
-# Install (Python)
-pip install pre-commit
-# or macOS Homebrew
-brew install pre-commit
-```
-
-Set up hooks for your local repo:
-
-```bash
-# Install git hook scripts
-pre-commit install
-# Run all hooks against all files (useful after adding hooks)
-pre-commit run --all-files
-```
-
-CI Integration:
-
-Run `pre-commit run --all-files` as a step in your CI pipeline to enforce checks on every push/PR.
-
-Notes:
-* Keep `.pre-commit-config.yaml` under version control so the whole team uses the same hooks.
-* Use `pre-commit autoupdate` to update hook versions periodically.
-
-Example of `.pre-commit-config.yaml`:
-
-```yaml
-repos:
-- repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
-    hooks:
-        - id: trailing-whitespace
-        - id: end-of-file-fixer
-        - id: check-yaml
-        - id: check-added-large-files
-
-- repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.1.14
-    hooks:
-        - id: ruff
-        args: [ --fix ]
-        - id: ruff-format
-```
+For details on our pre-commit configuration and usage, see this Notion [page](https://www.notion.so/vstorm/Pre-commit-1c5fa3d9957681b2938ecfe199ae007e?source=copy_link).
 
 ### 4. Running locally
 
-* **Start App**: `[Command, e.g., npm run dev]`
+* **Start App**: `[Command, e.g., uv run command]`
 
-* **Run Tests**: `[Command, e.g., pytest]`
+* **Run Tests**: `[Command, e.g., uv run pytest]`
 
-* **Format Code**: `[Command, e.g., black . or eslint --fix]`
-
----
+* **Format Code**: `[Command, e.g., uv run black . or uv run eslint --fix]`
 
 ## 📁 Exemplary Project Structure
 
