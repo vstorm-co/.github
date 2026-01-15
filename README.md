@@ -11,10 +11,10 @@ We take pride in delivering Agentic AI solutions for mid-market challengers and 
 Vstorm cooperated with brands from all around the world, including Mercedes-Benz, Intel and Synera. 
 
 ## Check our case studies:
-Synera
-ARIJ Network
-Other one
-Other one
+[Mixam - AI agent for order recommendation and completion](https://vstorm.co/case-study/ai-agent-for-order-recommendation-and-completion/)
+[ARIJ Network - Multilingual AI Agent-powered Chatbot Supporting Journalist Training](https://vstorm.co/case-study/multilingual-ai-agent-powered-chatbot-supporting-journalist-training/)
+[Mapline.ai - Advanced RAG Engineering for real estate due diligence AI Agent](https://vstorm.co/case-study/advanced-rag-engineering-for-real-estate-due-diligence-ai-agent/)
+[Intelligent automation with actionable AI Agents for the US telecommunication company](https://vstorm.co/case-study/intelligent-automation-with-actionable-ai-agents-for-the-us-telecommunication-company/)
 
 ## Open-source initiatives
 As a partner of PydanticAI, Vstorm contributes to the framework, delivering new tools and features required for smooth operations of agents in PydanticAI ecosystem. 
