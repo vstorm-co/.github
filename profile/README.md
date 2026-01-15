@@ -1,3 +1,4 @@
+![Vstorm logo](https://raw.githubusercontent.com/vstorm-co/.github/8a20017d95a4066f0268f1be55185d899f2afdff/logo_vstorm_color.svg))
 # About Vstorm
 Vstorm supports mid-market challengers in their Agentic AI-transformation to outrun the competition and Automate business operations by using the battle-tested TriStorm Agentic AI delivery framework. Vstorm delivers proven ROI through the practical, hands-on implementation experience of the PhDs and business experts on board.  Apart from solving business challenges, Vstorm is also an active contributor to the open source community, and the first AI-consultancy company accepted in Agentic AI Foundation (AAIF). 
 
