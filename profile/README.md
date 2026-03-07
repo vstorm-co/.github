@@ -15,7 +15,4 @@ As a partner of PydanticAI, Vstorm contributes to the framework, delivering new 
 
 ## Contact
 If you have any questions, you can contact us using [contact form on our website](https://vstorm.co/fill-out-the-form/). We will be also happy to schedule a [free AI consultation for you](https://vstorm.co/schedule-a-meeting/)!
-
-### Also check out our:
 - [LinkedIn](https://pl.linkedin.com/company/vstormco)
-- [Clutch](https://clutch.co/profile/vstorm-leading-ai-agent-company)
