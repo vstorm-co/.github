@@ -1,5 +1,5 @@
 # Welcome to Vstorm's GitHub!
-We work hard every day to make [Vstorm a leading Agentic AI company](https://vstorm.co/) and support our clients from Europe, US and Middle East in  Agentic AI-transformation of their businesses. We are the first Agentic AI Engineering company joined the [Agentic AI Foundation](https://aaif.io/) 
+We work hard every day to make [Vstorm] a leading Agentic AI engineering company(https://vstorm.co/) and support our clients from Europe and the US in Agentic process transformation. We are the first Agentic AI Engineering company to join the [Agentic AI Foundation](https://aaif.io/) the week after the foundation was founded.
 
 ### Our Open-source initiatives and contributions
 As a partner of PydanticAI, Vstorm contributes to the framework, delivering new tools and features required for smooth operations of agents in PydanticAI ecosystem. Check our initiatives:
